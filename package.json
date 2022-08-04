@@ -1,15 +1,16 @@
 {
-  "name": "12-mysql-employee-tracker",
+  "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "A solution for managing company's employees using node, inquirer, and MySQL",
+  "main": "employee.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node employee.js",
+    "watch": "nodemon employee.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Milfred08/EmployeeTracker"
+    "url": "git+https://github.com/Milfred08/EmployeeTracker.git "
   },
   "keywords": [],
   "author": "",
@@ -19,9 +20,9 @@
   },
   "homepage": "https://github.com/Milfred08/EmployeeTracker#readme",
   "dependencies": {
-    "console.table": "^0.10.0",
+    "asciiart-logo": "^0.2.6",
     "inquirer": "^7.3.3",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {}
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  }
 }
