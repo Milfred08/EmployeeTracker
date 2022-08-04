@@ -1,19 +1,19 @@
-# 12-mysql-employee-tracker
+# employee-tracker
 
 In this homework assignment, The challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
 
 ## Demo 
 
-- [Live Link to Demo](https://drive.google.com/file/d/1JxeDrjWReYoqnyaUtDrpQh0Re1FKs2P-/view?usp=sharing)
+- [Live Link to Demo](coming soon)
 
 
 ## User Story
-```
+
 As a business owner
 I want to be able to view and manage the departments, roles, and employees in my company
 So that I can organize and plan my business
-```
+
 # Tech Used
 - inquirer
 - mySQL
@@ -31,9 +31,9 @@ So that I can organize and plan my business
 3. npm i inquirer
 4. npm i mysql
 5. npm i console.table
-6. make sure to run .sql file in mySQL workbench before running server.js so that tables are able to render correctly
-7. run node server.js
-8. make sure server.js is connected to SQL before continuing
+6. make sure to run .sql file in mySQL workbench before running employee.js so that tables are able to render correctly
+7. run node employee.js
+8. make sure employee.js is connected to SQL before continuing
 9. run through prompts as required 
 
 ## Repository
